@@ -1,0 +1,10 @@
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: rgb(32, 36, 41);
+    color: white;
+}
+  
+footer p {
+    margin-bottom: .25rem;
+}
