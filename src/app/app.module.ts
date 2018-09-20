@@ -7,6 +7,10 @@ import { NavComponent } from './nav/nav.component';
 import { CardKeschaeComponent } from './card-keschae/card-keschae.component';
 import { SelectedStudentComponent } from './selected-student/selected-student.component';
 
+// should end up with 9 student component cards being imported here
+// and 9 more in NgModule
+// I'm going to trust Git merge for these
+
 @NgModule({
   declarations: [
     AppComponent,
