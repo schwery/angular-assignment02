@@ -6,6 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import { CardKeschaeComponent } from './card-keschae/card-keschae.component';
 import { SelectedStudentComponent } from './selected-student/selected-student.component';
+import { CardVbatti1Component } from './card-vbatti1/card-vbatti1.component';
 
 // should end up with 9 student component cards being imported here
 // and 9 more in NgModule
@@ -17,7 +18,8 @@ import { SelectedStudentComponent } from './selected-student/selected-student.co
     FooterComponent,
     NavComponent,
     CardKeschaeComponent,
-    SelectedStudentComponent
+    SelectedStudentComponent,
+    CardVbatti1Component
   ],
   imports: [
     BrowserModule
