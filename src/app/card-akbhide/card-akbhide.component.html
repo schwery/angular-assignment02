@@ -1,0 +1,10 @@
+    
+<div class="card border-secondary" (click)="clickCard()">
+  <img class="card-img-top" src="{{ '../../assets/images/' + akbhide.ulid + '.jpg' }}" alt="Card image cap">
+  <div class="card-body">
+      <h5 class="card-title">{{getAkbhide().name}}</h5>
+      <p class="card-text">{{getAkbhide().desc_long}}</p>
+      <a href="#" class="card-link">{{getAkbhide().website}}</a>
+      <p class="card-text"><small class="text-muted">{{getAkbhide().desc_short}}</small></p>
+  </div>
+</div>
