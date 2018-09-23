@@ -1,0 +1,9 @@
+<div class="card border-secondary" (click)="clickedStudent()" >
+  <img class="card-img-top" src="{{ '../../assets/images/' + getKhemnan().ulid + '.jpg' }}" alt="Card image cap">
+  <div class="card-body">
+      <h5 class="card-title">{{getKhemnan().name}}</h5>
+      <p class="card-text">{{getKhemnan().desc_long}}</p>
+      <a href="#" class="card-link">{{getKhemnan().website}}</a>
+      <p class="card-text"><small class="text-muted">{{getKhemnan().desc_short}}Updated September 21, 2018 12:15 AM</small></p>
+  </div>
+</div> 
